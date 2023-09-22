@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="calculadora">
+    <div id="mostrarResultados">
+      <h1 id="painel1"></h1>
+      <h3 id="painel2"></h3>
+    </div>
+    <div class="botoes">
+      <button id="limpar" onclick="Limpar()">C</button>
+      <button id="sinal" onclick="sinalParenteses()">()</button>
+      <button id="sinal" onclick="Inserir('%')">%</button>
+      <button id="sinal" onclick="Inserir('/')">/</button>
+      <button id="numero" onclick="Inserir(7);Calcular();">7</button>
+      <button id="numero" onclick="Inserir(8);Calcular();">8</button>
+      <button id="numero" onclick="Inserir(9);Calcular();">9</button>
+      <button id="sinal" onclick="Inserir('*')">X</button>
+      <button id="numero" onclick="Inserir(4);Calcular();">4</button>
+      <button id="numero" onclick="Inserir(5);Calcular();">5</button>
+      <button id="numero" onclick="Inserir(6);Calcular();">6</button>
+      <button id="sinal" onclick="Inserir('-')">-</button>
+      <button id="numero" onclick="Inserir(1);Calcular();">1</button>
+      <button id="numero" onclick="Inserir(2);Calcular();">2</button>
+      <button id="numero" onclick="Inserir(3);Calcular();">3</button>
+      <button id="sinal" onclick="Inserir('+')">+</button>
+      <button id="sinal" onclick="">+/-</button>
+      <button id="numero" onclick="Inserir(0);Calcular();">0</button>
+      <button id="sinal" onclick="Inserir('.')">,</button>
+      <button id="sinalIgual" onclick="BotaoIgual()">=</button>
+    </div>
+  </div>
+
+  <script src="calculadora.js"></script>
+</body>
+
+</html>
