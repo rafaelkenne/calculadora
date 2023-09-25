@@ -34,12 +34,12 @@ function sinalParenteses() {
   if (contador == 0 && Number(numeroOuSinal)) {
     painel1.innerText += "*(";
     contador = 1;
-    return;
+    exit();
   }
   if (contador == 0 && !Number(numeroOuSinal)) {
     painel1.innerText += "(";
     contador = 1;
-    return;
+    exit();
   }
   if (contador == 1) {
     painel1.innerText += ")";
