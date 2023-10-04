@@ -47,4 +47,8 @@ function sinalParenteses() {
   }
 }
 
+function botaoMenosMais() {
+
+}
+
 
