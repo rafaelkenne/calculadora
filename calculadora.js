@@ -45,6 +45,7 @@ function sinalParenteses() {
     painel1.innerText += ")";
     contador = 0;
   }
+  Calcular();
 }
 
 function botaoMenosMais() {
